@@ -1,0 +1,302 @@
+universe = vanilla
+
+executable = Ath_Trans_UAgene_operon_gene.sh
+arguments = $(sample)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasCHTCStaging == true)
+
+transfer_input_files = PROG_instl/bowtie2-2.3.4-linux-x86_64.zip, \
+                       PROG_instl/RSEM-1.3.1.tar.gz
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+log = Ath_Trans_UAgene/kazu1.log
+error = Ath_Trans_UAgene/kazu1.error
+output = Ath_Trans_UAgene/kazu1.out
+
+sample = kazu1
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu2.log
+error = Ath_Trans_UAgene/kazu2.error
+output = Ath_Trans_UAgene/kazu2.out
+
+sample = kazu2
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu3.log
+error = Ath_Trans_UAgene/kazu3.error
+output = Ath_Trans_UAgene/kazu3.out
+
+sample = kazu3
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu4.log
+error = Ath_Trans_UAgene/kazu4.error
+output = Ath_Trans_UAgene/kazu4.out
+
+sample = kazu4
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu5.log
+error = Ath_Trans_UAgene/kazu5.error
+output = Ath_Trans_UAgene/kazu5.out
+
+sample = kazu5
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu6.log
+error = Ath_Trans_UAgene/kazu6.error
+output = Ath_Trans_UAgene/kazu6.out
+
+sample = kazu6
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu7.log
+error = Ath_Trans_UAgene/kazu7.error
+output = Ath_Trans_UAgene/kazu7.out
+
+sample = kazu7
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu8.log
+error = Ath_Trans_UAgene/kazu8.error
+output = Ath_Trans_UAgene/kazu8.out
+
+sample = kazu8
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu9.log
+error = Ath_Trans_UAgene/kazu9.error
+output = Ath_Trans_UAgene/kazu9.out
+
+sample = kazu9
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu10.log
+error = Ath_Trans_UAgene/kazu10.error
+output = Ath_Trans_UAgene/kazu10.out
+
+sample = kazu10
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu11.log
+error = Ath_Trans_UAgene/kazu11.error
+output = Ath_Trans_UAgene/kazu11.out
+
+sample = kazu11
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu12.log
+error = Ath_Trans_UAgene/kazu12.error
+output = Ath_Trans_UAgene/kazu12.out
+
+sample = kazu12
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu13.log
+error = Ath_Trans_UAgene/kazu13.error
+output = Ath_Trans_UAgene/kazu13.out
+
+sample = kazu13
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu14.log
+error = Ath_Trans_UAgene/kazu14.error
+output = Ath_Trans_UAgene/kazu14.out
+
+sample = kazu14
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu15.log
+error = Ath_Trans_UAgene/kazu15.error
+output = Ath_Trans_UAgene/kazu15.out
+
+sample = kazu15
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu16.log
+error = Ath_Trans_UAgene/kazu16.error
+output = Ath_Trans_UAgene/kazu16.out
+
+sample = kazu16
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu17.log
+error = Ath_Trans_UAgene/kazu17.error
+output = Ath_Trans_UAgene/kazu17.out
+
+sample = kazu17
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu18.log
+error = Ath_Trans_UAgene/kazu18.error
+output = Ath_Trans_UAgene/kazu18.out
+
+sample = kazu18
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu19.log
+error = Ath_Trans_UAgene/kazu19.error
+output = Ath_Trans_UAgene/kazu19.out
+
+sample = kazu19
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu20.log
+error = Ath_Trans_UAgene/kazu20.error
+output = Ath_Trans_UAgene/kazu20.out
+
+sample = kazu20
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu21.log
+error = Ath_Trans_UAgene/kazu21.error
+output = Ath_Trans_UAgene/kazu21.out
+
+sample = kazu21
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu22.log
+error = Ath_Trans_UAgene/kazu22.error
+output = Ath_Trans_UAgene/kazu22.out
+
+sample = kazu22
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu23.log
+error = Ath_Trans_UAgene/kazu23.error
+output = Ath_Trans_UAgene/kazu23.out
+
+sample = kazu23
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
+
+log = Ath_Trans_UAgene/kazu24.log
+error = Ath_Trans_UAgene/kazu24.error
+output = Ath_Trans_UAgene/kazu24.out
+
+sample = kazu24
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 1
+
+queue
